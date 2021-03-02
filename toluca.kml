@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Toluca</name>
+    <Style id="poly-FFFFFF-1000-127-normal">
+      <LineStyle>
+        <color>ffffffff</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7fffffff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-FFFFFF-1000-127-highlight">
+      <LineStyle>
+        <color>ffffffff</color>
+        <width>1.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7fffffff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-FFFFFF-1000-127">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FFFFFF-1000-127-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FFFFFF-1000-127-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Toluca</name>
+      <description>Shape</description>
+      <styleUrl>#poly-FFFFFF-1000-127</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -99.7670059,19.2350183,0
+              -99.64032,19.203085,0
+              -99.6133695,19.223672,0
+              -99.5144928,19.2254551,0
+              -99.4248852,19.2675928,0
+              -99.4836707,19.3086238,0
+              -99.5144512,19.3071,0
+              -99.567907,19.370363,0
+              -99.699743,19.376517,0
+              -99.780767,19.327604,0
+              -99.7874435,19.248824,0
+              -99.7670059,19.2350183,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
