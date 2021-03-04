@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Shapes</name><Style id="thickLine"><LineStyle><width>2.5</width></LineStyle></Style>
+<Style id="transparent50Poly"><PolyStyle><color>7fffffff</color></PolyStyle></Style>
+<Placemark>
+<name>Shape</name>
+<description>Shape</description>
+<Polygon><outerBoundaryIs><LinearRing><coordinates>-2.3648534003906434,53.52282605340994,0 -2.2591099921875184,53.550575407179025,0 -2.1616063300781434,53.53017324053408,0 -2.1135411445312684,53.48525385692251,0 -2.1259007636718934,53.424741731314306,0 -2.114227790039081,53.37704820794639,0 -2.165039557617206,53.34959509745774,0 -2.2591099921875184,53.3401668167376,0 -2.3881993476562684,53.36475795730808,0 -2.3772130195312684,53.4885223265098,0 -2.3648534003906434,53.52282605340994,0 </coordinates></LinearRing></outerBoundaryIs></Polygon><styleUrl>#transparent50Poly</styleUrl></Placemark>
+</Document>
+</kml>
