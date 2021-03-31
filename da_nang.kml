@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Da Nang</name>
+    <Style id="poly-000000-1200-77-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d000000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-000000-1200-77-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d000000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-000000-1200-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-000000-1200-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-000000-1200-77-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Da Nang</name>
+      <styleUrl>#poly-000000-1200-77-nodesc</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              108.2150392,16.0966562,0
+              108.2126359,16.0902238,0
+              108.2126359,16.086925,0
+              108.2069711,16.0790078,0
+              108.2007913,16.0747191,0
+              108.1860284,16.0760387,0
+              108.177617,16.0671313,0
+              108.1779603,16.0598731,0
+              108.1908349,16.0225882,0
+              108.1923799,16.0204433,0
+              108.1915215,16.0095534,0
+              108.188775,16.0027881,0
+              108.1896333,15.9989928,0
+              108.1992463,16.0036131,0
+              108.210576,16.0115334,0
+              108.2246522,16.027208,0
+              108.2301454,16.0288578,0
+              108.2340936,16.0301777,0
+              108.2356385,16.0369421,0
+              108.2251672,16.0583884,0
+              108.2263688,16.0722449,0
+              108.2244805,16.0849457,0
+              108.2195024,16.0926978,0
+              108.2150392,16.0966562,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
